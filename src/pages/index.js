@@ -1,16 +1,16 @@
 import Head from "next/head";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import Featured from "../../components/Featured";
+import classes from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <>
+    <div className={classes.container}>
       <Head>
         <title>Pizza App</title>
         <meta name="description" content="Best pizza shop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-    </>
+      <Featured />
+    </div>
   );
 }
