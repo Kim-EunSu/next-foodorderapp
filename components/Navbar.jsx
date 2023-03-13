@@ -24,7 +24,6 @@ function Navbar() {
             <li className={classes.listItem}>Homepage</li>
             <li className={classes.listItem}>Products</li>
             <li className={classes.listItem}>Menu</li>
-            <Image src={"/logo.png"} alt="logo" width={160} height={69} />
             <li className={classes.listItem}>Events</li>
             <li className={classes.listItem}>Blog</li>
             <li className={classes.listItem}>Contact</li>
